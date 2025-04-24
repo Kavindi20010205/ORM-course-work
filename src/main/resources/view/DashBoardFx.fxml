@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.course3.contoller.DashBoardController">
+   <children>
+      <AnchorPane fx:id="mainAnchor_panel" layoutX="94.0" layoutY="106.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: yellow;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <VBox layoutX="44.0" layoutY="42.0" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: green;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1100.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="109.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="70.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/logo%20-%20Copy.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="63.0" prefWidth="200.0">
+               <children>
+                  <Label text="DashBoard" textFill="#81c373">
+                     <font>
+                        <Font name="Bernard MT Condensed" size="35.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
